@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_film"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/item_film_spiderman"
+
+        />
+    <TextView
+        android:id="@+id/tv_title_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_name_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spiderman No Way Home"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_title_film"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_title_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release Date :"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_below="@id/tv_title_name_film"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_date_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021-12-17"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_title_date"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_average_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Rating :"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_below="@id/tv_date_film"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9.5"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_average_rating"
+        android:layout_toRightOf="@id/image_film"
+        android:layout_marginLeft="8dp"
+        />
+
+</RelativeLayout>
